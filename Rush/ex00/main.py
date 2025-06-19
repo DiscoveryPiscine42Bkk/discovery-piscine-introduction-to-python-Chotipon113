@@ -1,6 +1,6 @@
 from typing import List, Dict
 
-class FarmTask:
+class FarmMoodeng:
     def __init__(self, name: str, date: str, task_type: str):
         self.name = name
         self.date = date
@@ -8,11 +8,11 @@ class FarmTask:
 
 class TaskManager:
     def __init__(self):
-        self.tasks: List[FarmTask] = []
+        self.tasks: List[FarmMoodeng] = []
     
     def add_task(self, name: str, date: str, task_type: str):
         """เพิ่มงานใหม่"""
-        new_task = FarmTask(name, date, task_type)
+        new_task = FarmMoodeng(name, date, task_type)
         self.tasks.append(new_task)
         print("เพิ่มงานสำเร็จ")
     
