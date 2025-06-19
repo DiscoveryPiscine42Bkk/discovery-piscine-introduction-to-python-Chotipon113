@@ -1,3 +1,6 @@
+"""test"""
+def main():
+    """test"""
 num1 = int(input("Give me the first number: "))
 num2 = int(input("Give me the second number: "))
 print('Thank You')
@@ -9,3 +12,4 @@ if div == int(div):
 else:
     print(f"{num1} / {num2} = {div}")
 print(f"{num1} * {num2} = {num1 * num2}")
+main()
